@@ -1,6 +1,6 @@
-# express-jsdoc-swagger-docs
+# pba-handbook
 
-This repository has the docs with Docsify of [express-jsdoc-swagger](https://github.com/BRIKEV/express-jsdoc-swagger) and [express-oas-validator](https://github.com/BRIKEV/express-oas-validator).
+This repository has the docs with Docsify of [express-jsdoc-swagger](https://github.com/shennawardana23/pba-handbook).
 
 ## How to run this project
 
@@ -19,7 +19,7 @@ npm start
 This will be running in `localhost:3000`.
 
 ```
-Serving /Users/kevinccbsg/brikev/express-jsdoc-swagger-docs/docs now.
+Serving /Users/kevinccbsg/shennawardana23/pba-handbook/docs now.
 Listening at http://localhost:3000
 ```
 
