@@ -1,0 +1,33 @@
+{
+  "name": "pba-handbook",
+  "version": "1.0.0",
+  "description": "Swagger OpenAPI 3.x generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRIKEV/express-jsdoc-swagger-docs.git"
+  },
+  "keywords": [],
+  "author": "BRIKEV (https://github.com/BRIKEV)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRIKEV/express-jsdoc-swagger-docs/issues"
+  },
+  "homepage": "https://github.com/BRIKEV/express-jsdoc-swagger-docs#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "docsify-darklight-theme": "^3.0.6"
+  }
+}
